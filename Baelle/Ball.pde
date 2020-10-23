@@ -1,9 +1,11 @@
 class Ball
 {
+  // Attribute
   private float x;
   private float y;
   private float v;
 
+  // Konstruktor
   Ball(float x_, float y_)
   {
     x = x_;
@@ -11,6 +13,7 @@ class Ball
     v = 0;
   }
 
+  // Methoden
   void bewegen()
   {
     // Ball bewegt sich nach unten
