@@ -10,8 +10,10 @@ void setup() {
 void draw() {
   // Hintergrund
   background(255);
+  // Baelle bewegen
   ball1.bewegen();
   ball2.bewegen();
+  // Baelle zeichnen
   ball1.zeichnen();
   ball2.zeichnen();
 }
