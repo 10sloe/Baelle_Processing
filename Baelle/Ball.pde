@@ -23,6 +23,7 @@ class Ball
     if (y > 400)
     {
       v = -v;
+      y = 400;
     } 
     else
     {
